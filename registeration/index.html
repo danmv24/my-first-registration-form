@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html> 
+<head>    
+    <title>Registration Page</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form-horizontal form-login">
+        <fieldset>
+            <legend>Register Here</legend>
+            
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="fname">Full Name 
+                    <span style="color: #ff0047">*</span>
+                </label>  
+                <div class="col-md-12">
+                    <input id="fname" name="fname" type="text" 
+                    placeholder="Enter your name" class="form-control input-md" 
+                    required="" autocomplete="none">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="email">Email 
+                    <span style="color: #ff0047">*</span>
+                </label>  
+                <div class="col-md-12">
+                    <input id="email" name="email" type="text" 
+                    placeholder="Enter your email" class="form-control input-md" 
+                    required="" autocomplete="off">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="password">Password 
+                    <span style="color: #ff0047">*</span>
+                </label>
+                <div class="col-md-12">
+                    <input id="password" name="password" type="password" 
+                    placeholder="Enter your password" 
+                    class="form-control input-md" 
+                    required="">
+                </div>
+            </div>
+            <!-- Button (Double) -->
+            <div class="form-group text-center">
+                <label class="col-md-4 control-label" for="save"></label>
+                <div class="col-md-12">
+                    <button id="save" name="save" class="btn btn-success">
+                        Register
+                    </button>
+                </div>
+                <a href="../login/index.html">Have an account? Login</a>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
